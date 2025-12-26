@@ -92,6 +92,23 @@ GET /customers/exists?document=44524452
 - Role: USER
 - JWT: Use the Authorization header: `Bearer <token>`
 
+## Evidencias
+
+![Create Customer](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/1.PNG)
+
+![Validation Create Customer](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/1b.PNG)
+
+![Get Customer By Id](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/2.PNG)
+
+![Customer Not Found](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/2b.PNG)
+
+![Find Customer By Document](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/3.PNG)
+
+![Customer Disable](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/3b.PNG)
+
+![q/health](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/4.PNG)
+
+
 ## Related Guides
 
 - Hibernate ORM with Panache ([guide](https://quarkus.io/guides/hibernate-orm-panache)): Simplify your persistence code for Hibernate ORM via the active record or the repository pattern
