@@ -64,7 +64,16 @@ If you want to learn more about building native executables, please consult <htt
 - `GET /customers/{id}` - Get customer by ID
 - `GET /customers/exists?document={document}` - Check if customer exists by document
 
-### Usage Examples
+## Usage Examples
+
+### Test Credentials
+To generate token follow this steps: https://github.com/klintfox/account-service
+
+You must include a valid JWT token in the `Authorization` header for all requests. Example:
+```
+Authorization: Bearer <jwt_token>
+```
+
 **Create customer**
 ```json
 POST /customers
@@ -84,14 +93,6 @@ GET /customers/1
 **Check existence by document**
 ```
 GET /customers/exists?document=44524452
-```
-
-### Test Credentials
-To generate token follow this tutorial https://github.com/klintfox/account-service
-
-You must include a valid JWT token in the `Authorization` header for all requests. Example:
-```
-Authorization: Bearer <jwt_token>
 ```
 
 ## Evidences
