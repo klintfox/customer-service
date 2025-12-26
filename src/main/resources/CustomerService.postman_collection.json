@@ -1,0 +1,65 @@
+{
+  "info": {
+    "_postman_id": "b1e1e1e1-1234-5678-9abc-def012345678",
+    "name": "Customer Service API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Colección de endpoints para el microservicio customer-service."
+  },
+  "item": [
+    {
+      "name": "Create Customer",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"John Doe\",\n  \"document\": \"12345678\",\n  \"email\": \"john.doe@example.com\",\n  \"status\": \"ACTIVE\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8081/customers",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["customers"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Customer by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/customers/{{customerId}}",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["customers", "{{customerId}}"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Check Customer Exists by Document",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8081/customers/exists?document={{document}}",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8081",
+          "path": ["customers", "exists"],
+          "query": [
+            { "key": "document", "value": "{{document}}" }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
+
