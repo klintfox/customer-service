@@ -92,7 +92,7 @@ GET /customers/exists?document=44524452
 - Role: USER
 - JWT: Use the Authorization header: `Bearer <token>`
 
-## Evidencias
+## Evidences
 
 ![Create Customer](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/1.PNG)
 
