@@ -87,10 +87,12 @@ GET /customers/exists?document=44524452
 ```
 
 ### Test Credentials
-- User: testuser
-- Password: testpass
-- Role: USER
-- JWT: Use the Authorization header: `Bearer <token>`
+To generate token follow this tutorial https://github.com/klintfox/account-service
+
+You must include a valid JWT token in the `Authorization` header for all requests. Example:
+```
+Authorization: Bearer <jwt_token>
+```
 
 ## Evidences
 
