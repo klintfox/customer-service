@@ -98,7 +98,7 @@ GET /customers/exists?document=44524452
 
 ![Validation Create Customer](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/1b.PNG)
 
-![Get Customer By Id](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/2.PNG)
+![Get Customer By Id](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/2a.PNG)
 
 ![Customer Not Found](https://github.com/klintfox/customer-service/blob/master/src/main/resources/evidencias/2b.PNG)
 
